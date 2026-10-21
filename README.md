@@ -18,8 +18,16 @@ A three-service biometric attendance platform (**Next.js 16** frontend + **NestJ
   * Implemented the mobile student check-in flow using `react-native-vision-camera` and `react-native-worklets-core` (`useRunOnJS`).
 
 <p align="center">
-  <img src="assets/01-lecturer-disputes.png" alt="Smart Attendance System - Lecturer Disputes Workspace" width="49%" />
-  <img src="assets/02-admin-audit-logs.png" alt="Smart Attendance System - Admin Activity & Audit Logs" width="49%" />
+  <img src="assets/01-lecturer-disputes.png" alt="Lecturer Attendance Disputes" width="49%" />
+  <img src="assets/02-admin-audit-logs.png" alt="Admin Unified Activity & Audit Logs" width="49%" />
+</p>
+<p align="center">
+  <img src="assets/03-lecturer-dashboard.png" alt="Lecturer Live Teaching Dashboard" width="49%" />
+  <img src="assets/04-admin-dashboard.png" alt="Admin Campus-Wide Class Monitor" width="49%" />
+</p>
+<p align="center">
+  <img src="assets/05-lecturer-classes.png" alt="Lecturer Assigned Classes & Sections" width="49%" />
+  <img src="assets/06-login-portal.png" alt="EIU Smart Attendance Authentication Portal" width="49%" />
 </p>
 
 ---
@@ -28,12 +36,20 @@ A three-service biometric attendance platform (**Next.js 16** frontend + **NestJ
 A Blackjack training app and Monte Carlo strategy simulator built with **Next.js 16, React 19, Tailwind CSS v4, Zustand v5, Framer Motion**, and packaged as a native desktop app with **Tauri v2 (Rust)**.
 
 * Implemented a modular rules engine (Strategy Pattern) supporting 10+ casino rulesets, real-time Hi-Lo card counting, and player edge calculation.
-* Built an analytics simulator to test betting systems and measure win rate, EV per hand, max drawdown, and risk of ruin.
+* Built an analytics simulator to test betting systems and measure win rate, EV per hand, max drawdown, and risk of ruin, alongside interactive guided tutorial tracks.
 * Wrote Python image-processing scripts (Pillow/NumPy) to generate custom animated `.webp` card decks and automated screenshot/audio pipelines with Playwright and PowerShell.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/03-game-classic-desktop-hero.png" alt="Blackjack Table" width="49%" />
-  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/05-simulator-desktop-hero.png" alt="Blackjack Simulator" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/01-home-desktop-hero.png" alt="Blackjack Main Menu" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/02-lobby-desktop-hero.png" alt="Blackjack Casino Room Lobby" width="49%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/03-game-classic-desktop-hero.png" alt="Classic 8-Deck Table & Hi-Lo Counter" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/04-game-vegas-strip-desktop-hero.png" alt="Vegas Strip 4-Deck Table" width="49%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/05-simulator-desktop-hero.png" alt="Monte Carlo Strategy Simulator" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/BlackJack-Education-App/main/docs/screenshots/06-tutorial-lobby-desktop-hero.png" alt="Interactive Tutorial Tracks" width="49%" />
 </p>
 
 ---
@@ -46,17 +62,15 @@ A web application (**React 19, Vite, Supabase, Vercel Serverless**) that calcula
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/01-armory-dashboard.png" alt="QuangHungFarm ROI Dashboard" width="49%" />
-  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/03-roi-calculator.png" alt="QuangHungFarm ROI Calculator" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/02-collection-detail.png" alt="Train 2025 Rarity Breakdown" width="49%" />
 </p>
-
----
-
-### 4. [Multi-Gateway Payment System — Abstract Factory Pattern](https://github.com/hungdonguyen/AbstractFactoryPaymentGateway)
-A **Java 17 & Spring Boot 3** checkout service demonstrating how to integrate multiple Vietnamese payment providers (**MoMo, VNPay, ZaloPay**) cleanly using the **Abstract Factory Pattern** and Spring IoC map injection (`Map<String, PaymentIntegrationFactory>`) without `if/else` coupling. Includes JUnit 5 & MockMvc integration tests.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hungdonguyen/AbstractFactoryPaymentGateway/main/docs/screenshots/01-momo-checkout.png" alt="MoMo Checkout Factory" width="49%" />
-  <img src="https://raw.githubusercontent.com/hungdonguyen/AbstractFactoryPaymentGateway/main/docs/screenshots/02-vnpay-checkout.png" alt="VNPay Checkout Factory" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/03-roi-calculator.png" alt="Pass Farming & ROI Calculator" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/04-items-within.png" alt="Items Within Collection Filter" width="49%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/05-skin-wear-modal.png" alt="Skin Float & Wear Probability Modal" width="49%" />
+  <img src="https://raw.githubusercontent.com/hungdonguyen/QuangHungFarmROI/main/public/screenshots/06-usd-fee-comparison.png" alt="Overpass 2024 Collection in USD with 15% Steam Fee" width="49%" />
 </p>
 
 ---
